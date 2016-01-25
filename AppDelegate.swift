@@ -21,9 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let model = TestModel(info: diccc)
         print(model)
         print(model.b![0])
+        
+        print(model.toDictionary())
 
         
-        
+       
         
         
         
