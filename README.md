@@ -23,3 +23,7 @@ print(model.b![0])
 
 print(model.toDictionary()) // Model 转字典
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/myafer/aajsontomodel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
