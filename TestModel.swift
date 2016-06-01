@@ -11,7 +11,18 @@ import UIKit
 class TestModel: QdaiBaseModel {
     
     var a: String?
-    var b: NSArray?
-    var c: NSDictionary?
+    var arr: NSArray?
+    var dic: Bmodel?
+    
+    override init(info: NSDictionary?) {
+        super.init(info: info)
+        self.setValue(Bmodel.init(info: info!["dic"] as? NSDictionary), forKeyPath: "dic")
+    }
 
+}
+
+
+class Bmodel: QdaiBaseModel {
+    var b: String?
+    var c: NSArray?
 }

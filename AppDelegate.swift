@@ -17,14 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         
-        let diccc = ["a":"12312", "b":["12","2","3"], "c":["1":"2"]]
-        let model = TestModel(info: diccc)
-        print(model)
-        print(model.b![0])
-        
-        print(model.toDictionary())
+        let aaa: NSDictionary = ["a": "123", "arr":["1", "2"], "dic":["b":"123", "c":["c", "cc"]]]
+        let tModel = TestModel.init(info: aaa)
 
-        
+        print(tModel)
        
         
         
