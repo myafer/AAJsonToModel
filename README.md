@@ -3,6 +3,7 @@
 
 * 使用方法 继承QdaiBaseModel
 
+```objective-c
 class TestModel: QdaiBaseModel {
     var a: String?
     var arr: NSArray?
@@ -22,5 +23,5 @@ class Bmodel: QdaiBaseModel {
  let tModel = TestModel.init(info: aaa)
  print(tModel)
        
- print(tModel.toDictionary())  // Model 转字典 此版本暂时不支持
-
+ print(tModel.toDictionary())  // Model 转字典 此版本暂时不支持 `
+```
